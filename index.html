@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="km, en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNIVERSE HUOKAING THARA - Movie & Cinema Platform</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@300;400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="universe_huokaingthara.jpg">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header class="site-header">
+        <div class="logo-container">
+            <i class="fa-solid fa-film spin-icon"></i>
+            <h1>UNIVERSE HUOKAING THARA <span class="sub-title">មជ្ឈមណ្ឌលភាពយន្ត និងវីដេអូភាគ</span></h1>
+        </div>
+        <nav class="nav-links">
+            <a href="#home">Home / ទំព័រដើម</a>
+            <a href="#movies">Hot Movies / ភាពយន្តល្បីៗ</a>
+            <a href="#about">About / អំពីពួកយើង</a>
+            <a href="#contact">Contact / ទំនាក់ទំនង</a>
+        </nav>
+    </header>
+
+    <!-- Main Content Container -->
+    <main class="main-container">
+        
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+                <h2>Welcome to the Universe of Movies & Cinema</h2>
+                <p>បណ្តុំភាពយន្ត និងរឿងភាគរំភើបៗ គុណភាពកម្រិតខ្ពស់ ផ្តល់ជូនការកម្សាន្តឥតដែនកំណត់!</p>
+                <button id="explore-btn" class="cta-button">Explore Movies / មើលភាពយន្ត</button>
+            </div>
+        </section>
+
+        <!-- Movie Showcase Section -->
+        <section id="movies" class="video-showcase-section">
+            <div class="section-title">
+                <h3>Top Featured Movies / ភាពយន្តល្បីៗប្រចាំវេទិកា</h3>
+                <p>ចុចលើរូបវីដេអូនីមួយៗដើម្បីចាប់ផ្តើមលេងដោយស្វ័យប្រវត្តិ (Click to Autoplay)</p>
+            </div>
+
+            <!-- Movie Card 1 -->
+            <div class="facebook-feed-card">
+                <div class="card-header">
+                    <img src="universe_huokaingthara.jpg" alt="Avatar" class="avatar">
+                    <div class="poster-info">
+                        <h4>UNIVERSE HUOKAING THARA <span class="verified-badge"><i class="fa-solid fa-circle-check"></i></span></h4>
+                        <span class="post-time">Movie #1 • Action & Drama • 👁️ 15,000,000 Views</span>
+                    </div>
+                </div>
+                <div class="post-description">
+                    <p>វីដេអូទី១៖ ភាពយន្តខ្នាតធំបង្ហាញពីវីរភាព និងសាច់រឿងដ៏ជក់ចិត្ត។</p>
+                    <p>Movie 1: Epic action and drama feature film with incredible storytelling.</p>
+                </div>
+                <div class="video-wrapper">
+                    <div class="video-overlay" onclick="playVideo(this)">
+                        <div class="play-trigger-box">
+                            <div class="play-icon-pulse"><i class="fa-solid fa-play"></i></div>
+                            <span>Click to Run Auto-Play / ចុចទីនេះដើម្បីលេង</span>
+                        </div>
+                    </div>
+                    <iframe src="https://www.youtube.com/embed/bLT4T156WG4?si=N7CQyGFKVgOz4cXC" title="Movie 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="video-stats-bar">
+                    <span><i class="fa-solid fa-eye"></i> 15M Views / 15 លានទស្សនា</span>
+                    <span><i class="fa-solid fa-fire"></i> Official Release</span>
+                    <span><i class="fa-solid fa-share"></i> Share / ចែករំលែក</span>
+                </div>
+            </div>
+
+            <!-- Movie Card 2 -->
+            <div class="facebook-feed-card">
+                <div class="card-header">
+                    <img src="universe_huokaingthara.jpg" alt="Avatar" class="avatar">
+                    <div class="poster-info">
+                        <h4>UNIVERSE HUOKAING THARA <span class="verified-badge"><i class="fa-solid fa-circle-check"></i></span></h4>
+                        <span class="post-time">Movie #2 • Romance & Family • 👁️ 18,000,000 Views</span>
+                    </div>
+                </div>
+                <div class="post-description">
+                    <p>វីដេអូទី២៖ រឿងរ៉ាវស្នេហាដ៏ផ្អែមល្ហែម និងអត្ថន័យគ្រួសារដ៏ជ្រាលជ្រៅ។</p>
+                    <p>Movie 2: Heartwarming romance and touching family relationships.</p>
+                </div>
+                <div class="video-wrapper">
+                    <div class="video-overlay" onclick="playVideo(this)">
+                        <div class="play-trigger-box">
+                            <div class="play-icon-pulse"><i class="fa-solid fa-play"></i></div>
+                            <span>Click to Run Auto-Play / ចុចទីនេះដើម្បីលេង</span>
+                        </div>
+                    </div>
+                    <iframe src="https://www.youtube.com/embed/BeEr2ZnPMks?si=Ep4BNny6LtJVCdQy" title="Movie 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="video-stats-bar">
+                    <span><i class="fa-solid fa-eye"></i> 18M Views / 18 លានទស្សនា</span>
+                    <span><i class="fa-solid fa-fire"></i> Official Release</span>
+                    <span><i class="fa-solid fa-share"></i> Share / ចែករំលែក</span>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="info-section">
+            <div class="info-card">
+                <h3><i class="fa-solid fa-film"></i> About Our Cinema Hub / អំពីវេទិកាភាពយន្ត</h3>
+                <p><strong>Khmer:</strong> វេទិកានេះប្រមូលផ្តុំភាពយន្ត និងវីដេអូភាគគុណភាពខ្ពស់ ដើម្បីបំពេញតម្រូវការកម្សាន្តរបស់អ្នកគាំទ្រគ្រប់រូប។</p>
+                <p><strong>English:</strong> Dedicated to streaming premium movies and high-definition series for global audiences.</p>
+            </div>
+            <div class="info-card">
+                <h3><i class="fa-solid fa-shield-halved"></i> Streaming Quality / គុណភាពផ្សាយផ្ទាល់</h3>
+                <p><strong>Khmer:</strong> រាល់វីដេអូត្រូវបានសម្រិតសម្រាំងយ៉ាងពិសេស ដើម្បីធានាបាននូវល្បឿនលឿន និងរូបភាពច្បាស់ត្រជាក់ភ្នែក។</p>
+                <p><strong>English:</strong> Optimized for ultra-fast streaming performance and high-definition viewing across all screens.</p>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer id="contact" class="site-footer">
+        <p>&copy; 2026 UNIVERSE HUOKAING THARA Group. All Rights Reserved. / រក្សាសិទ្ធិគ្រប់យ៉ាង</p>
+        <p class="footer-sub">Designed with HTML5, CSS3, and JavaScript.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="ultra_secure_mode.js"></script>
+</body>
+</html>
